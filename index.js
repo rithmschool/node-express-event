@@ -21,7 +21,7 @@ app.get('/', function(req, res, next) {
 app.get('/greet/:name', function(req, res, next) {
   var name = req.params.name;
   if (name === 'whiskey') {
-    return next(name); // GET OUTTA HERE
+    return next(); // GET OUTTA HERE
   }
   res.send('This is a greeting. Hi ' + name);
 });
