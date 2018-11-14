@@ -2,4 +2,6 @@
 
 Learn Server-Side JavaScript!
 
-[Intro Slides](https://slides.com/hueter/intro-to-nodejs/)
+## [Download Node.js (LTS Version)[https://nodejs.org/en/]
+
+## [Intro Slides](https://slides.com/hueter/intro-to-nodejs/)
