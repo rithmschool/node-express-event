@@ -20,7 +20,15 @@ app.get('/', function(req, res, next) {
 
 app.get('/greet/:name', function(req, res, next) {
   var name = req.params.name;
+  if (name === 'whiskey') {
+    return next(name); // GET OUTTA HERE
+  }
   res.send('This is a greeting. Hi ' + name);
+});
+
+app.get('/greet/whiskey', function(req, res, next) {
+  var name = req.params.name;
+  res.send('OH HELLO WHISKEY');
 });
 
 app.get('/:operation/:num1/:num2', function(req, res, next) {
